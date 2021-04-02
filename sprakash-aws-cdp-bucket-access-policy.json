@@ -45,8 +45,8 @@
         "s3:ListMultipartUploadParts"
       ],
       "Resource": [
-        "arn:aws:s3:::${DATALAKE_BUCKET}",
-        "arn:aws:s3:::${DATALAKE_BUCKET}/*"
+        "arn:aws:s3:::sprakash-sandbox2-cdp-reduced-policy",
+        "arn:aws:s3:::sprakash-sandbox2-cdp-reduced-policy/*"
       ]
     }
   ]
